@@ -1,0 +1,111 @@
+Handlers/RPG
+Game/Game_Temp
+Game/Game_System
+Game/Game_Switches
+Game/Game_Variables
+Game/Game_SelfSwitches
+Game/Game_Screen
+Game/Game_Picture
+Game/Game_Battler 1
+Game/Game_Battler 2
+Game/Game_Battler 3
+Game/Game_BattleAction
+Game/Game_Actor
+Game/Game_Enemy
+Game/Game_Actors
+Game/Game_Party
+Game/Game_Map
+Game/Game_CommonEvent
+Game/Game_Character 1
+Game/Game_Character 2
+Game/Game_Character 3
+Game/Game_Event
+Game/Game_Player
+Game/Game_Oneshot
+Game/Game_Light
+Game/Game_Follower
+Game/Game_FastTravel
+Sprites/Sprite_Character
+Sprites/Sprite_Battler
+Sprites/Sprite_Picture
+Sprites/Sprite_Timer
+Sprites/Sprite_Light
+Sprites/Sprite_Footprint
+Sprites/Sprite_Footsplash
+Sprites/Sprite_MapText
+Sprites/Spriteset_Map
+Handlers/FastTravel
+Windows/Window_Base
+Windows/Window_Selectable
+Windows/Window_Command
+Windows/Window_Help
+Windows/Window_Gold
+Windows/Window_PlayTime
+Windows/Window_Steps
+Windows/Window_MenuStatus
+Windows/Window_Item
+Windows/Window_Skill
+Windows/Window_SkillStatus
+Windows/Window_Target
+Windows/Window_EquipLeft
+Windows/Window_EquipRight
+Windows/Window_EquipItem
+Windows/Window_Status
+Windows/Window_SaveFile
+Windows/Window_Settings
+Windows/Window_ShopCommand
+Windows/Window_ShopBuy
+Windows/Window_ShopSell
+Windows/Window_ShopNumber
+Windows/Window_ShopStatus
+Windows/Window_NameEdit
+Windows/Window_NameInput
+Windows/Window_InputNumber
+Windows/Window_Message
+Windows/Window_PartyCommand
+Windows/Window_BattleStatus
+Windows/Window_BattleResult
+Windows/Window_DebugLeft
+Windows/Window_DebugRight
+Windows/Window_MainMenu
+Interpreter/Interpreter 1
+Interpreter/Interpreter 2
+Interpreter/Interpreter 3
+Interpreter/Interpreter 4
+Interpreter/Interpreter 5
+Interpreter/Interpreter 6
+Interpreter/Interpreter 7
+Scenes/Scene_Title
+Scenes/Scene_Map
+Scenes/Scene_Menu
+Scenes/Scene_Item
+Scenes/Scene_Skill
+Scenes/Scene_Equip
+Scenes/Scene_Status
+Scenes/Scene_File
+Scenes/Scene_Save
+Scenes/Scene_Load
+Scenes/Scene_End
+Scenes/Scene_Name
+Scenes/Scene_Debug
+Handlers/Persistent
+Handlers/i18n_Language
+Handlers/i18n_English
+Data/Data_Item
+Data/Data_Footsteps
+Data/Data_SpecialEventData
+Data/Data_FastTravel
+Util/Script
+Puzzles/Puzzle_Sokoban
+Puzzles/Puzzle_Pixel
+Puzzles/Puzzle_Film
+Puzzles/Puzzle_Safe
+Handlers/SaveLoad
+Messages/Ed_Message
+Messages/Doc_Message
+Messages/Desktop_Message
+Messages/Credits_Message
+Handlers/Particles
+Util/Demo
+Messages/EdText
+Initializers/Main

@@ -1,0 +1,20 @@
+source "https://rubygems.org"
+
+gem "base64"
+# gem 'concurrent-ruby'
+# gem 'concurrent-ruby-edge'
+gem "fiber"
+gem "fileutils"
+gem "inifile"
+gem "net-http"
+gem "ostruct"
+gem "pp"
+gem "ruby-debug-ide"
+gem "zlib"
+# gem "ruby_discord_game_sdk", git: "https://github.com/rkevin-arch/ruby_discord_game_sdk"
+gem "digest"
+gem "json"
+gem "rake"
+gem "rpg-maker-rgss3"
+gem "ruby-lsp", "~> 0.2.2", :group => :development
+gem "debug"

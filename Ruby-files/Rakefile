@@ -1,0 +1,55 @@
+require "rdoc/task"
+require "rake"
+
+task default: %w[build]
+
+desc "Build"
+task :build do
+  ruby "Tools/rpgscript.rb ./ ../"
+end
+
+desc "ISEQ Build"
+task :build_iseq do
+  ruby "Tools/iseq_generator.rb"
+  Dir.chdir("..")
+  pid = spawn("steamshim")
+  Process.wait(pid)
+  Dir.chdir("Ruby-files")
+
+  puts "Iseqing done!"
+  ruby "Tools/iseqscript.rb ./"
+end
+
+desc "Debug Build"
+task :build_debug do
+  ruby "Tools/dbgscript.rb ./ ../"
+end
+
+desc "Test"
+task test: %w[build] do
+  pid = spawn(["../steamshim", "2>&1"])
+  Process.wait(pid)
+end
+
+desc "Debug Test"
+task test_debug: %w[build_debug] do
+  Dir.chdir("../")
+  pid = spawn("steamshim")
+  Process.detach(pid)
+  sleep 5
+end
+
+task :launch do
+  pid = spawn("../steamshim")
+  Process.detach(pid)
+end
+
+desc "RDOC Task"
+RDoc::Task.new do |rdoc|
+  rdoc.main = "README.doc"
+  rdoc.rdoc_dir = "../docs"
+end
+
+"Do Nothing"
+task :nothing do
+end
